@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-gray-100;
+  }
+}
+
+@layer components {
+  .draft-item {
+    @apply border border-gray-800 rounded-md p-4 transition-all duration-200;
+  }
+  
+  .draft-item-selected {
+    @apply border-blue-500 bg-blue-900/20;
+  }
+  
+  .team-blue {
+    @apply border-team-blue-500 bg-team-blue-900/20 text-team-blue-400;
+  }
+  
+  .team-red {
+    @apply border-team-red-500 bg-team-red-900/20 text-team-red-400;
+  }
+}
+
+@layer utilities {
+  .transition-bounce {
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+}

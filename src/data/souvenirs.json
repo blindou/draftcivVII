@@ -1,0 +1,622 @@
+{
+  "souvenirs": [
+    {
+      "id": "ID_001",
+      "name": "Agincourt Arrowhead",
+      "image": "https://static.wikia.nocookie.net/civilization/images/c/c2/Agincourt_Arrowhead_%28Civ7%29.png",
+      "description": "Airborne exsanguinator"
+    },
+    {
+      "id": "ID_002",
+      "name": "All-T'oqapu Tunic",
+      "image": "https://static.wikia.nocookie.net/civilization/images/0/03/All-T%27oqapu_Tunic_%28Civ7%29.png",
+      "description": "Fine cloth, geometric motifs."
+    },
+    {
+      "id": "ID_003",
+      "name": "Altar Set",
+      "image": "https://static.wikia.nocookie.net/civilization/images/5/56/Altar_Set_%28Civ7%29.png",
+      "description": "Preserving the rites."
+    },
+    {
+      "id": "ID_004",
+      "name": "Ankus",
+      "image": "https://static.wikia.nocookie.net/civilization/images/6/66/Ankus_%28Civ7%29.png",
+      "description": "Elephantine encouragement"
+    },
+    {
+      "id": "ID_005",
+      "name": "Anti-Machiavel",
+      "image": "https://static.wikia.nocookie.net/civilization/images/7/72/Anti-Machiavel_%28Civ7%29.png",
+      "description": "The capacity to do good."
+    },
+    {
+      "id": "ID_006",
+      "name": "Antikythera Mechanism",
+      "image": "https://static.wikia.nocookie.net/civilization/images/3/35/Antikythera_Mechanism_%28Civ7%29.png",
+      "description": "Its calculations are astronomical."
+    },
+    {
+      "id": "ID_007",
+      "name": "Artilleryman's Gloves",
+      "image": "https://static.wikia.nocookie.net/civilization/images/a/a7/Artilleryman%27s_Gloves_%28Civ7%29.png",
+      "description": "Face cannon fire for the fallen."
+    },
+    {
+      "id": "ID_008",
+      "name": "Ballestilla",
+      "image": "https://static.wikia.nocookie.net/civilization/images/8/8e/Ballestilla_%28Civ7%29.png",
+      "description": "Ensures proper latitude."
+    },
+    {
+      "id": "ID_009",
+      "name": "Bicorne Hat",
+      "image": "https://static.wikia.nocookie.net/civilization/images/a/a1/Bicorne_Hat_%28Civ7%29.png",
+      "description": "Worn side-to-side"
+    },
+    {
+      "id": "ID_010",
+      "name": "Bifocals",
+      "image": "https://static.wikia.nocookie.net/civilization/images/4/4a/Bifocals_%28Civ7%29.png",
+      "description": "See distinctly, far or near."
+    },
+    {
+      "id": "ID_011",
+      "name": "Breastplate",
+      "image": "https://static.wikia.nocookie.net/civilization/images/2/23/Breastplate_%28Civ7%29.png",
+      "description": "Made of shining bronze."
+    },
+    {
+      "id": "ID_012",
+      "name": "Brush & Scroll",
+      "image": "https://static.wikia.nocookie.net/civilization/images/f/f9/Brush_%26_Scroll_%28Civ7%29.png",
+      "description": "Wisdom in words."
+    },
+    {
+      "id": "ID_013",
+      "name": "Chakra",
+      "image": "https://static.wikia.nocookie.net/civilization/images/2/24/Chakra_%28Civ7%29.png",
+      "description": "Turning the wheel."
+    },
+    {
+      "id": "ID_014",
+      "name": "Chalcedony Seal",
+      "image": "https://static.wikia.nocookie.net/civilization/images/5/50/Chalcedony_Seal_%28Civ7%29.png",
+      "description": "Carved depiction of a great king."
+    },
+    {
+      "id": "ID_015",
+      "name": "Chanda-mahasena",
+      "image": "https://static.wikia.nocookie.net/civilization/images/1/1d/Chanda-mahasena_%28Civ7%29.png",
+      "description": "Vishwakarma's divine creation."
+    },
+    {
+      "id": "ID_016",
+      "name": "Clipeus Virtutis",
+      "image": "https://static.wikia.nocookie.net/civilization/images/9/92/Clipeus_Virtutis_%28Civ7%29.png",
+      "description": "Golden recognition."
+    },
+    {
+      "id": "ID_017",
+      "name": "Colada & Tizona",
+      "image": "https://static.wikia.nocookie.net/civilization/images/c/cd/Colada_%26_Tizona_%28Civ7%29.png",
+      "description": "Swords of El Cid."
+    },
+    {
+      "id": "ID_018",
+      "name": "Complaint to Ea-nāsir",
+      "image": "https://static.wikia.nocookie.net/civilization/images/f/f7/Complaint_to_Ea-n%C4%81sir_%28Civ7%29.png",
+      "description": "Sub-standard copper is unacceptable."
+    },
+    {
+      "id": "ID_019",
+      "name": "Corona Civica",
+      "image": "https://static.wikia.nocookie.net/civilization/images/7/71/Corona_Civica_%28Civ7%29.png",
+      "description": "In honor of lives saved."
+    },
+    {
+      "id": "ID_020",
+      "name": "Corpus Juris Civilis",
+      "image": "https://static.wikia.nocookie.net/civilization/images/6/6b/Corpus_Juris_Civilis_%28Civ7%29.png",
+      "description": "Prudent legal code."
+    },
+    {
+      "id": "ID_021",
+      "name": "Crown of Napoleon",
+      "image": "https://static.wikia.nocookie.net/civilization/images/2/2c/Crown_of_Napoleon_%28Civ7%29.png",
+      "description": "Coronation of the Emperor."
+    },
+    {
+      "id": "ID_022",
+      "name": "Davalos Medal",
+      "image": "https://static.wikia.nocookie.net/civilization/images/7/75/Davalos_Medal_%28Civ7%29.png",
+      "description": "Legacy of Ayacucho."
+    },
+    {
+      "id": "ID_023",
+      "name": "Dell'Arte della Guerra",
+      "image": "https://static.wikia.nocookie.net/civilization/images/9/93/Dell%27Arte_della_Guerra_%28Civ7%29.png",
+      "description": "The only concern to one who commands."
+    },
+    {
+      "id": "ID_024",
+      "name": "Diamond Throne",
+      "image": "https://static.wikia.nocookie.net/civilization/images/8/81/Diamond_Throne_%28Civ7%29.png",
+      "description": "Location of enlightenment."
+    },
+    {
+      "id": "ID_025",
+      "name": "Discorsi sopra Livio",
+      "image": "https://static.wikia.nocookie.net/civilization/images/d/d2/Discorsi_sopra_Livio_%28Civ7%29.png",
+      "description": "Longevity requires renewal."
+    },
+    {
+      "id": "ID_026",
+      "name": "Dong Son Drum",
+      "image": "https://static.wikia.nocookie.net/civilization/images/1/1a/Dong_Son_Drum_%28Civ7%29.png",
+      "description": "Sacred sound."
+    },
+    {
+      "id": "ID_027",
+      "name": "Dōtaku",
+      "image": "https://static.wikia.nocookie.net/civilization/images/4/49/D%C5%8Dtaku_%28Civ7%29.png",
+      "description": "Friend of the Harvest."
+    },
+    {
+      "id": "ID_028",
+      "name": "Eagle Banner",
+      "image": "https://static.wikia.nocookie.net/civilization/images/6/6a/Eagle_Banner_%28Civ7%29.png",
+      "description": "Imperial legacy."
+    },
+    {
+      "id": "ID_029",
+      "name": "Equestrian Figure",
+      "image": "https://static.wikia.nocookie.net/civilization/images/1/18/Equestrian_Figure_%28Civ7%29.png",
+      "description": "Transportable, military."
+    },
+    {
+      "id": "ID_030",
+      "name": "False Beard",
+      "image": "https://static.wikia.nocookie.net/civilization/images/5/51/False_Beard_%28Civ7%29.png",
+      "description": "Horus incarnate."
+    },
+    {
+      "id": "ID_031",
+      "name": "Flute",
+      "image": "https://static.wikia.nocookie.net/civilization/images/6/6f/Flute_%28Civ7%29.png",
+      "description": "Carefree melodies."
+    },
+    {
+      "id": "ID_032",
+      "name": "Forget-me-not",
+      "image": "https://static.wikia.nocookie.net/civilization/images/b/ba/Forget-me-not_%28Civ7%29.png",
+      "description": "Sown by the traveler."
+    },
+    {
+      "id": "ID_033",
+      "name": "Garuda Statue",
+      "image": "https://static.wikia.nocookie.net/civilization/images/b/ba/Garuda_Statue_%28Civ7%29.png",
+      "description": "Soaring high."
+    },
+    {
+      "id": "ID_034",
+      "name": "Glass Armonica",
+      "image": "https://static.wikia.nocookie.net/civilization/images/b/b8/Glass_Armonica_%28Civ7%29.png",
+      "description": "Tones by touch."
+    },
+    {
+      "id": "ID_035",
+      "name": "Globus Cruciger",
+      "image": "https://static.wikia.nocookie.net/civilization/images/6/6d/Globus_Cruciger_%28Civ7%29.png",
+      "description": "The world in your hands."
+    },
+    {
+      "id": "ID_036",
+      "name": "Gold & Sapphire Flowers",
+      "image": "https://static.wikia.nocookie.net/civilization/images/9/97/Gold_%26_Sapphire_Flowers_%28Civ7%29.png",
+      "description": "Blossoms beneath the throne."
+    },
+    {
+      "id": "ID_037",
+      "name": "Gold Fluted Phiale",
+      "image": "https://static.wikia.nocookie.net/civilization/images/8/8f/Gold_Fluted_Phiale_%28Civ7%29.png",
+      "description": "Lobed bowl, regal gift."
+    },
+    {
+      "id": "ID_038",
+      "name": "Gold Snuff Box",
+      "image": "https://static.wikia.nocookie.net/civilization/images/1/19/Gold_Snuff_Box_%28Civ7%29.png",
+      "description": "Gift from a royal."
+    },
+    {
+      "id": "ID_039",
+      "name": "Golden Sceptre",
+      "image": "https://static.wikia.nocookie.net/civilization/images/a/af/Golden_Sceptre_%28Civ7%29.png",
+      "description": "Extends favor."
+    },
+    {
+      "id": "ID_040",
+      "name": "Golden Seal Stone",
+      "image": "https://static.wikia.nocookie.net/civilization/images/e/ee/Golden_Seal_Stone_%28Civ7%29.png",
+      "description": "A gift from the emperor."
+    },
+    {
+      "id": "ID_041",
+      "name": "Great Imperial Crown",
+      "image": "https://static.wikia.nocookie.net/civilization/images/8/82/Great_Imperial_Crown_%28Civ7%29.png",
+      "description": "Jewels like stars."
+    },
+    {
+      "id": "ID_042",
+      "name": "Green Colonel's Jacket",
+      "image": "https://static.wikia.nocookie.net/civilization/images/7/7c/Green_Colonel%27s_Jacket_%28Civ7%29.png",
+      "description": "Like the Chasseurs à Cheval."
+    },
+    {
+      "id": "ID_043",
+      "name": "Groma",
+      "image": "https://static.wikia.nocookie.net/civilization/images/8/85/Groma_%28Civ7%29.png",
+      "description": "Surveying for centuriation."
+    },
+    {
+      "id": "ID_044",
+      "name": "Hermione Model",
+      "image": "https://static.wikia.nocookie.net/civilization/images/7/74/Hermione_Model_%28Civ7%29.png",
+      "description": "Concorde-class frigate."
+    },
+    {
+      "id": "ID_045",
+      "name": "Il Principe",
+      "image": "https://static.wikia.nocookie.net/civilization/images/9/9a/Il_Principe_%28Civ7%29.png",
+      "description": "Concerning cruelty and clemency."
+    },
+    {
+      "id": "ID_046",
+      "name": "Imago Mundi",
+      "image": "https://static.wikia.nocookie.net/civilization/images/3/32/Imago_Mundi_%28Civ7%29.png",
+      "description": "Image of the known world."
+    },
+    {
+      "id": "ID_047",
+      "name": "Incense Censer",
+      "image": "https://static.wikia.nocookie.net/civilization/images/c/c8/Incense_Censer_%28Civ7%29.png",
+      "description": "Divine intermediary."
+    },
+    {
+      "id": "ID_048",
+      "name": "Inscribed Sling Bullet",
+      "image": "https://static.wikia.nocookie.net/civilization/images/1/17/Inscribed_Sling_Bullet_%28Civ7%29.png",
+      "description": "It reads, \"Catch!\""
+    },
+    {
+      "id": "ID_049",
+      "name": "Joyeuse",
+      "image": "https://static.wikia.nocookie.net/civilization/images/4/48/Joyeuse_%28Civ7%29.png",
+      "description": "Happiness, by the slice."
+    },
+    {
+      "id": "ID_050",
+      "name": "Kiem",
+      "image": "https://static.wikia.nocookie.net/civilization/images/0/02/Kiem_%28Civ7%29.png",
+      "description": "Rebellious blade."
+    },
+    {
+      "id": "ID_051",
+      "name": "Kite & Key",
+      "image": "https://static.wikia.nocookie.net/civilization/images/9/98/Kite_%26_Key_%28Civ7%29.png",
+      "description": "Unravel lightning's mysteries."
+    },
+    {
+      "id": "ID_052",
+      "name": "Krone von Friedrich I",
+      "image": "https://static.wikia.nocookie.net/civilization/images/9/9c/Krone_von_Friedrich_I_%28Civ7%29.png",
+      "description": "From Soldier King to son."
+    },
+    {
+      "id": "ID_053",
+      "name": "Kusanagi no Tsurugi",
+      "image": "https://static.wikia.nocookie.net/civilization/images/e/e6/Kusanagi_no_Tsurugi_%28Civ7%29.png",
+      "description": "Represents valor."
+    },
+    {
+      "id": "ID_054",
+      "name": "Kwalkwali",
+      "image": "https://static.wikia.nocookie.net/civilization/images/6/61/Kwalkwali_%28Civ7%29.png",
+      "description": "Regal horse headdress."
+    },
+    {
+      "id": "ID_055",
+      "name": "Lantern",
+      "image": "https://static.wikia.nocookie.net/civilization/images/9/92/Lantern_%28Civ7%29.png",
+      "description": "A guiding light."
+    },
+    {
+      "id": "ID_056",
+      "name": "Legion d'honneur Grand Eagle and Cross",
+      "image": "https://static.wikia.nocookie.net/civilization/images/e/e1/Legion_d%27honneur_Grand_Eagle_and_Cross_%28Civ7%29.png",
+      "description": "With such baubles, men are led."
+    },
+    {
+      "id": "ID_057",
+      "name": "Letter to Adrienne",
+      "image": "https://static.wikia.nocookie.net/civilization/images/e/e1/Letter_to_Adrienne_%28Civ7%29.png",
+      "description": "The happiness of all mankind."
+    },
+    {
+      "id": "ID_058",
+      "name": "Letter to Jamaica",
+      "image": "https://static.wikia.nocookie.net/civilization/images/c/c1/Letter_to_Jamaica_%28Civ7%29.png",
+      "description": "Vision of the future."
+    },
+    {
+      "id": "ID_059",
+      "name": "Lion Capital",
+      "image": "https://static.wikia.nocookie.net/civilization/images/3/33/Lion_Capital_%28Civ7%29.png",
+      "description": "Roar, and set rolling."
+    },
+    {
+      "id": "ID_060",
+      "name": "Lotus Blossom",
+      "image": "https://static.wikia.nocookie.net/civilization/images/5/51/Lotus_Blossom_%28Civ7%29.png",
+      "description": "Held in hand."
+    },
+    {
+      "id": "ID_061",
+      "name": "Lydian Lion",
+      "image": "https://static.wikia.nocookie.net/civilization/images/5/5c/Lydian_Lion_%28Civ7%29.png",
+      "description": "Electrum coinage."
+    },
+    {
+      "id": "ID_062",
+      "name": "Mascapaycha",
+      "image": "https://static.wikia.nocookie.net/civilization/images/8/80/Mascapaycha_%28Civ7%29.png",
+      "description": "Imperial crown of the Tawantisuyu."
+    },
+    {
+      "id": "ID_063",
+      "name": "Merchant's Saddle",
+      "image": "https://static.wikia.nocookie.net/civilization/images/8/84/Merchant%27s_Saddle_%28Civ7%29.png",
+      "description": "Backbone of commerce."
+    },
+    {
+      "id": "ID_064",
+      "name": "Noli Me Tángere",
+      "image": "https://static.wikia.nocookie.net/civilization/images/1/1d/Noli_Me_T%C3%A1ngere_%28Civ7%29.png",
+      "description": "To my country."
+    },
+    {
+      "id": "ID_065",
+      "name": "Note G",
+      "image": "https://static.wikia.nocookie.net/civilization/images/5/5e/Note_G_%28Civ7%29.png",
+      "description": "Vision of the future."
+    },
+    {
+      "id": "ID_066",
+      "name": "Ophthalmoscope",
+      "image": "https://static.wikia.nocookie.net/civilization/images/b/ba/Ophthalmoscope_%28Civ7%29.png",
+      "description": "Clarity of vision."
+    },
+    {
+      "id": "ID_067",
+      "name": "Order of the Black Eagle Badge",
+      "image": "https://static.wikia.nocookie.net/civilization/images/9/9c/Order_of_the_Black_Eagle_Badge_%28Civ7%29.png",
+      "description": "Highest order of chivalry."
+    },
+    {
+      "id": "ID_068",
+      "name": "Padrón Real",
+      "image": "https://static.wikia.nocookie.net/civilization/images/a/a5/Padr%C3%B3n_Real_%28Civ7%29.png",
+      "description": "Secrets mapped and royally registered."
+    },
+    {
+      "id": "ID_069",
+      "name": "Piano",
+      "image": "https://static.wikia.nocookie.net/civilization/images/1/16/Piano_%28Civ7%29.png",
+      "description": "Merging music and math."
+    },
+    {
+      "id": "ID_070",
+      "name": "Pochteca Backpack",
+      "image": "https://static.wikia.nocookie.net/civilization/images/2/2f/Pochteca_Backpack_%28Civ7%29.png",
+      "description": "Warrior-merchant chic."
+    },
+    {
+      "id": "ID_071",
+      "name": "Portrait of Josephine",
+      "image": "https://static.wikia.nocookie.net/civilization/images/9/9d/Portrait_of_Josephine_%28Civ7%29.png",
+      "description": "You alone rule my heart."
+    },
+    {
+      "id": "ID_072",
+      "name": "Potemkin's Sword-Knot",
+      "image": "https://static.wikia.nocookie.net/civilization/images/d/d5/Potemkin%27s_Sword-Knot_%28Civ7%29.png",
+      "description": "Gift from a soulmate."
+    },
+    {
+      "id": "ID_073",
+      "name": "Poteskwate",
+      "image": "https://static.wikia.nocookie.net/civilization/images/0/0e/Poteskwate_%28Civ7%29.png",
+      "description": "Arboreal mortar and pestle."
+    },
+    {
+      "id": "ID_074",
+      "name": "Punch Cards",
+      "image": "https://static.wikia.nocookie.net/civilization/images/7/79/Punch_Cards_%28Civ7%29.png",
+      "description": "From loom to computer."
+    },
+    {
+      "id": "ID_075",
+      "name": "Queen's Jewelry",
+      "image": "https://static.wikia.nocookie.net/civilization/images/9/9b/Queen%27s_Jewelry_%28Civ7%29.png",
+      "description": "Royal regalia."
+    },
+    {
+      "id": "ID_076",
+      "name": "Rawani",
+      "image": "https://static.wikia.nocookie.net/civilization/images/8/87/Rawani_%28Civ7%29.png",
+      "description": "Royal turban."
+    },
+    {
+      "id": "ID_077",
+      "name": "Royal Game of Ur",
+      "image": "https://static.wikia.nocookie.net/civilization/images/7/70/Royal_Game_of_Ur_%28Civ7%29.png",
+      "description": "Strategic play."
+    },
+    {
+      "id": "ID_078",
+      "name": "Royal Mace",
+      "image": "https://static.wikia.nocookie.net/civilization/images/8/81/Royal_Mace_%28Civ7%29.png",
+      "description": "A symbol of authority."
+    },
+    {
+      "id": "ID_079",
+      "name": "Sakaki Branch",
+      "image": "https://static.wikia.nocookie.net/civilization/images/1/1e/Sakaki_Branch_%28Civ7%29.png",
+      "description": "Marks the sacred."
+    },
+    {
+      "id": "ID_080",
+      "name": "Satchel",
+      "image": "https://static.wikia.nocookie.net/civilization/images/4/4d/Satchel_%28Civ7%29.png",
+      "description": "Provisions for passengers."
+    },
+    {
+      "id": "ID_081",
+      "name": "Scythian Battle-Axe",
+      "image": "https://static.wikia.nocookie.net/civilization/images/8/86/Scythian_Battle-Axe_%28Civ7%29.png",
+      "description": "To guard the throne."
+    },
+    {
+      "id": "ID_082",
+      "name": "Shakōkidogū",
+      "image": "https://static.wikia.nocookie.net/civilization/images/2/2b/Shak%C5%8Dkidog%C5%AB_%28Civ7%29.png",
+      "description": "Earthen effigy."
+    },
+    {
+      "id": "ID_083",
+      "name": "Shisa Necklace",
+      "image": "https://static.wikia.nocookie.net/civilization/images/f/f5/Shisa_Necklace_%28Civ7%29.png",
+      "description": "Guardian lion."
+    },
+    {
+      "id": "ID_084",
+      "name": "Sidearm",
+      "image": "https://static.wikia.nocookie.net/civilization/images/b/b3/Sidearm_%28Civ7%29.png",
+      "description": "Death or liberty."
+    },
+    {
+      "id": "ID_085",
+      "name": "Silk Uttariya",
+      "image": "https://static.wikia.nocookie.net/civilization/images/6/63/Silk_Uttariya_%28Civ7%29.png",
+      "description": "Faithfully fashioned."
+    },
+    {
+      "id": "ID_086",
+      "name": "Sword of Brennus",
+      "image": "https://static.wikia.nocookie.net/civilization/images/4/42/Sword_of_Brennus_%28Civ7%29.png",
+      "description": "Vae victis!"
+    },
+    {
+      "id": "ID_087",
+      "name": "Takoba",
+      "image": "https://static.wikia.nocookie.net/civilization/images/2/2b/Takoba_%28Civ7%29.png",
+      "description": "A traditional Hausa blade."
+    },
+    {
+      "id": "ID_088",
+      "name": "Tencendur",
+      "image": "https://static.wikia.nocookie.net/civilization/images/0/02/Tencendur_%28Civ7%29.png",
+      "description": "Strife, saddled."
+    },
+    {
+      "id": "ID_089",
+      "name": "The Analects",
+      "image": "https://static.wikia.nocookie.net/civilization/images/9/91/The_Analects_%28Civ7%29.png",
+      "description": "Sayings of the sage."
+    },
+    {
+      "id": "ID_090",
+      "name": "The Art of War",
+      "image": "https://static.wikia.nocookie.net/civilization/images/4/42/The_Art_of_War_%28Civ7%29.png",
+      "description": "Of vital importance."
+    },
+    {
+      "id": "ID_091",
+      "name": "The Rihla",
+      "image": "https://static.wikia.nocookie.net/civilization/images/8/85/The_Rihla_%28Civ7%29.png",
+      "description": "The Marvels of Traveling."
+    },
+    {
+      "id": "ID_092",
+      "name": "The Travels of Marco Polo",
+      "image": "https://static.wikia.nocookie.net/civilization/images/c/c2/The_Travels_of_Marco_Polo_%28Civ7%29.png",
+      "description": "Only half of what was seen."
+    },
+    {
+      "id": "ID_093",
+      "name": "Topayauri",
+      "image": "https://static.wikia.nocookie.net/civilization/images/3/3b/Topayauri_%28Civ7%29.png",
+      "description": "Symbol of power and prestige."
+    },
+    {
+      "id": "ID_094",
+      "name": "Traveller's Sandals",
+      "image": "https://static.wikia.nocookie.net/civilization/images/d/df/Traveller%27s_Sandals_%28Civ7%29.png",
+      "description": "Marked by many miles."
+    },
+    {
+      "id": "ID_095",
+      "name": "Treaty of Kadesh",
+      "image": "https://static.wikia.nocookie.net/civilization/images/6/6c/Treaty_of_Kadesh_%28Civ7%29.png",
+      "description": "Peace pieces."
+    },
+    {
+      "id": "ID_096",
+      "name": "Tricolor Cockade",
+      "image": "https://static.wikia.nocookie.net/civilization/images/2/2c/Tricolor_Cockade_%28Civ7%29.png",
+      "description": "Representative ribbon."
+    },
+    {
+      "id": "ID_097",
+      "name": "Uraeus",
+      "image": "https://static.wikia.nocookie.net/civilization/images/c/cf/Uraeus_%28Civ7%29.png",
+      "description": "Serpentine symbol of sovereignty."
+    },
+    {
+      "id": "ID_098",
+      "name": "Voltaire's Edits",
+      "image": "https://static.wikia.nocookie.net/civilization/images/f/fe/Voltaire%27s_Edits_%28Civ7%29.png",
+      "description": "To hold a pen is to be at war."
+    },
+    {
+      "id": "ID_099",
+      "name": "Walking Stick",
+      "image": "https://static.wikia.nocookie.net/civilization/images/d/dc/Walking_Stick_%28Civ7%29.png",
+      "description": "Cane-supported cadence."
+    },
+    {
+      "id": "ID_100",
+      "name": "Wampum Belt",
+      "image": "https://static.wikia.nocookie.net/civilization/images/f/f7/Wampum_Belt_%28Civ7%29.png",
+      "description": "Symbol of union."
+    },
+    {
+      "id": "ID_101",
+      "name": "Warclub",
+      "image": "https://static.wikia.nocookie.net/civilization/images/0/05/Warclub_%28Civ7%29.png",
+      "description": "Sleep not longer."
+    },
+    {
+      "id": "ID_102",
+      "name": "Yasakani no Magatama",
+      "image": "https://static.wikia.nocookie.net/civilization/images/1/11/Yasakani_no_Magatama_%28Civ7%29.png",
+      "description": "Represents benevolence."
+    },
+    {
+      "id": "ID_103",
+      "name": "Yata no Kagami",
+      "image": "https://static.wikia.nocookie.net/civilization/images/5/51/Yata_no_Kagami_%28Civ7%29.png",
+      "description": "Represents wisdom."
+    }
+  ]
+}
