@@ -6,6 +6,9 @@ import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 import { getDraftPhaseFlow } from '../constants/phaseFlow';
 import type { Database } from '../types/supabase';
+import civData from "../data/civs.json";
+import leaderData from "../data/leaders.json";
+import souvenirData from "../data/souvenirs.json";
 
 type Draft = Database['public']['Tables']['drafts']['Row'];
 type DraftAction = Database['public']['Tables']['draft_actions']['Row'];
@@ -55,6 +58,19 @@ const DraftPage: React.FC = () => {
   const [isJoining, setIsJoining] = useState(false);
   const [copySuccess, setCopySuccess] = useState(false);
   const [subscriptionStatus, setSubscriptionStatus] = useState<'connecting' | 'connected' | 'disconnected'>('connecting');
+
+  const getEntityName = (entityId: string) => {
+    const civ = civData.civilizations.find(c => c.id === entityId);
+    if (civ) return civ.name;
+
+    const leader = leaderData.leaders.find(l => l.id === entityId);
+    if (leader) return leader.name;
+
+    const souvenir = souvenirData.souvenirs.find(s => s.id === entityId);
+    if (souvenir) return souvenir.name;
+
+    return entityId;
+  };
 
   // Determine if the user is team 1 (creator) or team 2 (joiner)
   const isTeam1 = searchParams.get('team') !== '2';
@@ -303,21 +319,21 @@ const DraftPage: React.FC = () => {
           {draft.auto_ban_civilizations.length > 0 && (
             <div>
               <span className="text-gray-400">Auto-banned Civilizations</span>
-              <p className="font-medium">{draft.auto_ban_civilizations.join(', ')}</p>
+              <p className="font-medium">{draft.auto_ban_civilizations.map(getEntityName).join(' / ')}</p>
             </div>
           )}
 
           {draft.auto_ban_leaders.length > 0 && (
             <div>
               <span className="text-gray-400">Auto-banned Leaders</span>
-              <p className="font-medium">{draft.auto_ban_leaders.join(', ')}</p>
+              <p className="font-medium">{draft.auto_ban_leaders.map(getEntityName).join(' / ')}</p>
             </div>
           )}
 
           {draft.auto_ban_souvenirs.length > 0 && (
             <div>
               <span className="text-gray-400">Auto-banned Souvenirs</span>
-              <p className="font-medium">{draft.auto_ban_souvenirs.join(', ')}</p>
+              <p className="font-medium">{draft.auto_ban_souvenirs.map(getEntityName).join(' / ')}</p>
             </div>
           )}
         </Card.Content>

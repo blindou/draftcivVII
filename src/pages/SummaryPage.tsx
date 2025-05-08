@@ -200,19 +200,19 @@ const SummaryPage: React.FC = () => {
             {summary.draft.auto_ban_civilizations.length > 0 && (
               <div className="col-span-full">
                 <span className="text-gray-400 block">Auto-banned Civilizations</span>
-                <p className="font-medium">{summary.draft.auto_ban_civilizations.map(getEntityName).join(', ')}</p>
+                <p className="font-medium">{summary.draft.auto_ban_civilizations.map(getEntityName).join(' / ')}</p>
               </div>
             )}
             {summary.draft.auto_ban_leaders.length > 0 && (
               <div className="col-span-full">
                 <span className="text-gray-400 block">Auto-banned Leaders</span>
-                <p className="font-medium">{summary.draft.auto_ban_leaders.map(getEntityName).join(', ')}</p>
+                <p className="font-medium">{summary.draft.auto_ban_leaders.map(getEntityName).join(' / ')}</p>
               </div>
             )}
             {summary.draft.auto_ban_souvenirs.length > 0 && (
               <div className="col-span-full">
                 <span className="text-gray-400 block">Auto-banned Souvenirs</span>
-                <p className="font-medium">{summary.draft.auto_ban_souvenirs.map(getEntityName).join(', ')}</p>
+                <p className="font-medium">{summary.draft.auto_ban_souvenirs.map(getEntityName).join(' / ')}</p>
               </div>
             )}
           </div>

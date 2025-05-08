@@ -10,6 +10,7 @@ import leaderData from '../data/leaders.json';
 import souvenirData from '../data/souvenirs.json';
 import { ChevronDown, ChevronRight, Timer, Shield, Swords, Crown, Scroll } from 'lucide-react';
 
+
 interface DraftPhaseProps {
   draftId: string;
   teamNumber: number;
@@ -329,12 +330,19 @@ const DraftPhase: React.FC<DraftPhaseProps> = ({
         const newTimer = Math.max(0, prev - 1);
         
         if (newTimer === 0 && isCurrentTeamTurn && !isSubmitting && config && !autoSelectInProgress.current) {
-          const availableItems = config.data.filter((item) => {
-            if (config.category === 'civ' && draft.auto_ban_civilizations.includes(item.id)) return false;
-            if (config.category === 'leader' && draft.auto_ban_leaders.includes(item.id)) return false;
-            if (config.category === 'souvenir' && draft.auto_ban_souvenirs.includes(item.id)) return false;
-            return !phaseActions.some(action => action.choice_id === item.id);
-          });
+          const allActions = [...allTeamActions.team1, ...allTeamActions.team2];
+
+          const unavailableIds = allActions
+              .filter(a => ['ban', 'pick'].includes(a.action_type))
+              .map(a => a.choice_id)
+              .concat(
+                  config.category === 'civ' ? draft.auto_ban_civilizations :
+                      config.category === 'leader' ? draft.auto_ban_leaders :
+                          config.category === 'souvenir' ? draft.auto_ban_souvenirs :
+                              []
+              );
+
+          const availableItems = config.data.filter(item => !unavailableIds.includes(item.id));
 
           if (availableItems.length > 0) {
             autoSelectInProgress.current = true;
@@ -561,12 +569,19 @@ const DraftPhase: React.FC<DraftPhaseProps> = ({
     return null;
   }
 
-  const availableItems = config.data.filter((item) => {
-    if (config.category === 'civ' && draft.auto_ban_civilizations.includes(item.id)) return false;
-    if (config.category === 'leader' && draft.auto_ban_leaders.includes(item.id)) return false;
-    if (config.category === 'souvenir' && draft.auto_ban_souvenirs.includes(item.id)) return false;
-    return !phaseActions.some(action => action.choice_id === item.id);
-  });
+  const allActions = [...allTeamActions.team1, ...allTeamActions.team2];
+
+  const unavailableIds = allActions
+      .filter(a => ['ban', 'pick'].includes(a.action_type))
+      .map(a => a.choice_id)
+      .concat(
+          config.category === 'civ' ? draft.auto_ban_civilizations :
+              config.category === 'leader' ? draft.auto_ban_leaders :
+                  config.category === 'souvenir' ? draft.auto_ban_souvenirs :
+                      []
+      );
+
+  const availableItems = config.data.filter(item => !unavailableIds.includes(item.id));
 
   const team1Actions = phaseActions.filter(action => action.team_number === 1);
   const team2Actions = phaseActions.filter(action => action.team_number === 2);
@@ -629,13 +644,13 @@ const DraftPhase: React.FC<DraftPhaseProps> = ({
                 {draft.auto_ban_civilizations.length > 0 && (
                   <div className="col-span-2">
                     <span className="text-gray-400">Auto-banned Civilizations:</span>
-                    <span className="ml-2">{draft.auto_ban_civilizations.map(id => getItemDetails(id)?.name).join(', ')}</span>
+                    <span className="ml-2">{draft.auto_ban_civilizations.map(id => getItemDetails(id)?.name).join(' / ')}</span>
                   </div>
                 )}
                 {draft.auto_ban_leaders.length > 0 && (
                   <div className="col-span-2">
                     <span className="text-gray-400">Auto-banned Leaders:</span>
-                    <span className="ml-2">{draft.auto_ban_leaders.map(id => getItemDetails(id)?.name).join(', ')}</span>
+                    <span className="ml-2">{draft.auto_ban_leaders.map(id => getItemDetails(id)?.name).join(' / ')}</span>
                   </div>
                 )}
               </div>
