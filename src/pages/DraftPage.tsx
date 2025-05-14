@@ -311,7 +311,7 @@ const DraftPage: React.FC = () => {
               <p className="font-medium">{draft.timer_seconds} seconds</p>
             </div>
             <div>
-              <span className="text-gray-400">Souvenir Ban Phase</span>
+              <span className="text-gray-400">Mementos Ban Phase</span>
               <p className="font-medium">{draft.enable_souvenir_ban ? 'Enabled' : 'Disabled'}</p>
             </div>
           </div>
@@ -332,7 +332,7 @@ const DraftPage: React.FC = () => {
 
           {draft.auto_ban_souvenirs.length > 0 && (
             <div>
-              <span className="text-gray-400">Auto-banned Souvenirs</span>
+              <span className="text-gray-400">Auto-banned Mementos</span>
               <p className="font-medium">{draft.auto_ban_souvenirs.map(getEntityName).join(' / ')}</p>
             </div>
           )}

@@ -31,8 +31,8 @@ export const PHASE_CONFIGS: Record<PhaseType, PhaseConfig> = {
   },
   'ban-souvenir-1': {
     type: 'ban-souvenir-1',
-    title: 'First Souvenir Ban Phase',
-    description: 'Teams ban souvenirs in the first round',
+    title: 'First Mementos Ban Phase',
+    description: 'Teams ban mementos in the first round',
     nextPhase: 'pick-civ',
     actionsPerTeam: 1
   },
@@ -52,8 +52,8 @@ export const PHASE_CONFIGS: Record<PhaseType, PhaseConfig> = {
   },
   'ban-souvenir-2': {
     type: 'ban-souvenir-2',
-    title: 'Final Souvenir Ban Phase',
-    description: 'Teams ban remaining souvenirs',
+    title: 'Final Mementos Ban Phase',
+    description: 'Teams ban remaining mementos',
     nextPhase: null,
     actionsPerTeam: 1
   }

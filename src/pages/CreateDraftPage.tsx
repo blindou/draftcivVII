@@ -20,6 +20,7 @@ const CreateDraftPage: React.FC = () => {
   const [selectedCivs, setSelectedCivs] = React.useState<string[]>([]);
   const [selectedLeaders, setSelectedLeaders] = React.useState<string[]>([]);
   const [selectedSouvenirs, setSelectedSouvenirs] = React.useState<string[]>([]);
+  const [souvenirSearch, setSouvenirSearch] = React.useState('');
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -78,6 +79,10 @@ const CreateDraftPage: React.FC = () => {
     );
   };
 
+  const filteredSouvenirs = souvenirData.souvenirs.filter(souvenir =>
+    souvenir.name.toLowerCase().includes(souvenirSearch.toLowerCase())
+  );
+
   return (
       <div className="max-w-2xl mx-auto">
         <h1 className="text-3xl font-bold mb-8">Create Draft Session</h1>
@@ -100,7 +105,7 @@ const CreateDraftPage: React.FC = () => {
                 </label>
 
                 <label className="block">
-                  <span className="text-sm font-medium text-gray-300">Enable Souvenir Ban Phase</span>
+                  <span className="text-sm font-medium text-gray-300">Enable Mementos Ban Phase</span>
                   <div className="mt-1">
                     <input
                         type="checkbox"
@@ -167,10 +172,18 @@ const CreateDraftPage: React.FC = () => {
 
                 <div className="space-y-2">
                   <label className="block text-sm font-medium text-gray-300">
-                    Auto-Ban Souvenirs
+                    Auto-Ban Mementos
                   </label>
+                  <Input
+                    label="Mementos search"
+                    name="souvenirSearch"
+                    value={souvenirSearch}
+                    onChange={(e) => setSouvenirSearch(e.target.value)}
+                    placeholder="Rechercher..."
+                    className="mb-2"
+                  />
                   <div className="grid grid-cols-2 gap-2 max-h-48 overflow-y-auto bg-gray-800 rounded-md p-2">
-                    {souvenirData.souvenirs.map(souvenir => (
+                    {filteredSouvenirs.map(souvenir => (
                         <label key={souvenir.id} className="flex items-center space-x-2 p-2 hover:bg-gray-700 rounded cursor-pointer">
                           <input
                               type="checkbox"

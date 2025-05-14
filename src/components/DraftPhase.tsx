@@ -56,7 +56,7 @@ const phaseConfigs: Record<string, PhaseConfigItem> = {
     data: civData.civilizations,
     pickOrder: [1, 2],
     title: 'Ban Civilizations',
-    description: 'Each team bans two civilizations they don\'t want their opponents to use',
+    description: 'Each team bans one civilizations they don\'t want their opponents to use',
   },
   'ban-leader': {
     type: 'ban',
@@ -64,15 +64,15 @@ const phaseConfigs: Record<string, PhaseConfigItem> = {
     data: leaderData.leaders,
     pickOrder: [2, 1],
     title: 'Ban Leaders',
-    description: 'Each team bans two leaders',
+    description: 'Each team bans one leaders',
   },
   'ban-souvenir-1': {
     type: 'ban',
     category: 'souvenir',
     data: souvenirData.souvenirs,
     pickOrder: [1, 2],
-    title: 'First Souvenir Ban Phase',
-    description: 'Ban powerful souvenirs in the first round. Each team bans two souvenirs',
+    title: 'First Memento Ban Phase',
+    description: 'Ban powerful souvenirs in the first round. Each team bans one mementos',
   },
   'pick-civ': {
     type: 'pick',
@@ -95,8 +95,8 @@ const phaseConfigs: Record<string, PhaseConfigItem> = {
     category: 'souvenir',
     data: souvenirData.souvenirs,
     pickOrder: [1, 2],
-    title: 'Final Souvenir Ban Phase',
-    description: 'Ban remaining souvenirs in the final round. Each team bans two souvenirs',
+    title: 'Final Mementos Ban Phase',
+    description: 'Ban remaining souvenirs in the final round. Each team bans one mementos',
   },
 };
 
@@ -549,7 +549,7 @@ const DraftPhase: React.FC<DraftPhaseProps> = ({
               `${teamNumber}-bans-leader`
             )}
             {draft.enable_souvenir_ban && renderSection(
-              'Souvenirs',
+              'Mementos',
               <Scroll className="w-4 h-4" />,
               groupedActions.bans.souvenir,
               `${teamNumber}-bans-souvenir`

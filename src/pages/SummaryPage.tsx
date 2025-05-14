@@ -194,7 +194,7 @@ const SummaryPage: React.FC = () => {
               <p className="font-medium">{summary.draft.timer_seconds} seconds</p>
             </div>
             <div>
-              <span className="text-gray-400 block">Souvenir Ban Phase</span>
+              <span className="text-gray-400 block">Mementos Ban Phase</span>
               <p className="font-medium">{summary.draft.enable_souvenir_ban ? 'Enabled' : 'Disabled'}</p>
             </div>
             {summary.draft.auto_ban_civilizations.length > 0 && (
@@ -211,7 +211,7 @@ const SummaryPage: React.FC = () => {
             )}
             {summary.draft.auto_ban_souvenirs.length > 0 && (
               <div className="col-span-full">
-                <span className="text-gray-400 block">Auto-banned Souvenirs</span>
+                <span className="text-gray-400 block">Auto-banned Mementos</span>
                 <p className="font-medium">{summary.draft.auto_ban_souvenirs.map(getEntityName).join(' / ')}</p>
               </div>
             )}
@@ -251,7 +251,7 @@ const SummaryPage: React.FC = () => {
                   <p className="font-medium">{groupedActions.team1.bans.leader.join(', ')}</p>
                 </div>
                 <div>
-                  <span className="text-gray-400 block">Souvenirs</span>
+                  <span className="text-gray-400 block">Mementos</span>
                   <p className="font-medium">{groupedActions.team1.bans.souvenir.join(', ')}</p>
                 </div>
               </div>
@@ -290,7 +290,7 @@ const SummaryPage: React.FC = () => {
                   <p className="font-medium">{groupedActions.team2.bans.leader.join(', ')}</p>
                 </div>
                 <div>
-                  <span className="text-gray-400 block">Souvenirs</span>
+                  <span className="text-gray-400 block">Mementos</span>
                   <p className="font-medium">{groupedActions.team2.bans.souvenir.join(', ')}</p>
                 </div>
               </div>
